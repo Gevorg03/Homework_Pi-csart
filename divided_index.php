@@ -6,4 +6,4 @@ def divided_index(lst):
         if lst[i] % i == 0:
             count += 1
     return count
-print(divided_index([1, 2, 4, 15, 23]))
+print("Count =",divided_index([1, 2, 4, 15, 23]))
