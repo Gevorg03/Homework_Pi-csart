@@ -1,6 +1,8 @@
 """A phrase is a palindrome if, after converting all uppercase letters into lowercase letters and removing all 
 non-alphanumeric characters, it reads the same forward and backward. Alphanumeric characters include letters and numbers."""
 
+import string 
+
 def palindrome(s: str):
     s = s.translate(str.maketrans('', '', string.punctuation))
     s = s.replace(" ", "")
