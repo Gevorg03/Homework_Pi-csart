@@ -1,6 +1,6 @@
 def push_pop(target: list, n):
     lst = []
-    for i in range(1, target[-1] + 1):
+    for i in range(target[0], target[-1] + 1):
         if i in target:
             lst.append("push")
         else:
