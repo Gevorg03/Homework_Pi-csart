@@ -1,4 +1,4 @@
-"""Add up two big numbers with list sliceing 3 digits""""
+"""Add up two big numbers with list sliceing 3 digits"""
 
 def number_setting(num1, num2):
     i1 = len(num1)
