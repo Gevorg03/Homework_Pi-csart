@@ -17,7 +17,7 @@ def number_setting(num1, num2):
         num1 = f'{count_0}{num1}'
     elif i1 > i2:
         num2 = f'{count_0}{num2}'
-    print(num1, num2)
+
     length = len(num1)
     lst1 = []
     lst2 = []
