@@ -1,6 +1,5 @@
 """Find the sum of number's digits"""
 
-The first solution
 def get_sum(num):
     sum = 0
     while num != 0:
