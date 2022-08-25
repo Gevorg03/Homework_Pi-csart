@@ -1,10 +1,7 @@
-"""find the same repeted numbers in two list"""
-
-def intersect(lst1, lst2):
-    intersect_lst = []
-    for el_lst1 in lst1:
-        for el_lst2 in lst2:
-            if el_lst1 == el_lst2:
-                intersect_lst.append(el_lst2)
-    return intersect_lst
-print(intersect([1, 2, 3], [2, 3, 4]))
+class Solution:
+    def intersection(self, nums1: List[int], nums2: List[int]) -> List[int]:
+        intersect_lst = []
+        for el in nums1:
+            if el in nums2 and el not in intersect_lst:
+                intersect_lst.append(el)
+        return intersect_lst
